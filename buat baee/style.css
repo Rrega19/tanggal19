@@ -1,0 +1,89 @@
+/* Mengatur font dan warna romantis */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffe6e6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 48px;
+    color: #ff4d4d;
+}
+
+.subtitle {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #ff6666;
+}
+
+p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.heart-image {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff3333;
+}
+
+.hidden {
+    display: none;
+}
+
+#message {
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #999;
+}
+
+/* Animasi untuk kejutan */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#message h2 {
+    animation: fadeIn 2s ease-in-out;
+}
+
